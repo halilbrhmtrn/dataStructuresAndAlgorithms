@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="data-structures-and-algorithms">Data Structures And Algorithms</h1>
+<h1 id="data-structures-and-algorithms">Data Structures and Algorithms</h1>
 <p>Some introduction should be here!</p>
 <h1 id="arrays">Arrays</h1>
 <blockquote>

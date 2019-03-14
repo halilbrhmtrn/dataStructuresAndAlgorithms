@@ -15,35 +15,99 @@
 <thead>
 <tr>
 <th></th>
-<th>TIME COMPLEXITY</th>
-<th>SPACE COMPLEXITY</th>
+<th align="center">TIME COMPLEXITY</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Operation</td>
-<td>Best Case  &nbsp;&nbsp;&nbsp;&nbsp;|  &nbsp;&nbsp;&nbsp;Worst Case</td>
-<td>Worst case</td>
+<td align="center">Best Case  &nbsp;&nbsp;&nbsp;|  &nbsp;&nbsp;&nbsp;Worst Case</td>
 </tr>
 <tr>
 <td>Access</td>
-<td><code>Θ(1)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(1)</code></td>
-<td><code>Θ(n)</code></td>
+<td align="center"><code>Θ(1)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(1)</code></td>
 </tr>
 <tr>
 <td>Search</td>
-<td><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
-<td><code>Θ(n)</code></td>
+<td align="center"><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
 </tr>
 <tr>
 <td>Insertion</td>
-<td><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
-<td><code>Θ(n)</code></td>
+<td align="center"><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
 </tr>
 <tr>
 <td>Deletion</td>
-<td><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
-<td><code>Θ(n)</code></td>
+<td align="center"><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
+</tr>
+</tbody>
+</table><h1 id="linked-lists">Linked Lists</h1>
+<blockquote>
+<p>Arrays are static and have fix size to overcome this we can make use of linked lists. Also when it comes insertion and deletion arrays not a good fit. ( Θ(n) )</p>
+</blockquote>
+<h2 id="complexity-of-linked-list-operations">Complexity of Linked List Operations</h2>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center">TIME COMPLEXITY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Operation</td>
+<td align="center">Best Case  &nbsp;&nbsp;&nbsp;|  &nbsp;&nbsp;&nbsp;Worst Case</td>
+</tr>
+<tr>
+<td>Access</td>
+<td align="center"><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
+</tr>
+<tr>
+<td>Search</td>
+<td align="center"><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
+</tr>
+<tr>
+<td>Insertion</td>
+<td align="center"><code>Θ(1)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(1)</code></td>
+</tr>
+<tr>
+<td>Deletion</td>
+<td align="center"><code>Θ(1)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(1)</code></td>
+</tr>
+</tbody>
+</table><h1 id="stacks">Stacks</h1>
+<blockquote>
+<p>Stack is nothing but an abstract data structure with LIFO working principle.</p>
+</blockquote>
+<h2 id="complexity-of-stack-operations">Complexity of Stack Operations</h2>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center">TIME COMPLEXITY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Operation</td>
+<td align="center">Best Case  &nbsp;&nbsp;&nbsp;|  &nbsp;&nbsp;&nbsp;Worst Case</td>
+</tr>
+<tr>
+<td>Access</td>
+<td align="center"><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
+</tr>
+<tr>
+<td>Search</td>
+<td align="center"><code>Θ(n)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(n)</code></td>
+</tr>
+<tr>
+<td>Insertion</td>
+<td align="center"><code>Θ(1)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(1)</code></td>
+</tr>
+<tr>
+<td>Deletion</td>
+<td align="center"><code>Θ(1)</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>Θ(1)</code></td>
 </tr>
 </tbody>
 </table><blockquote>
